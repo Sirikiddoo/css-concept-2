@@ -1,0 +1,137 @@
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Introduction
+        etc.
+    5. Media Queries
+////////////////////////*/
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Paars #5722CD;
+Blauw #4845E4;
+Roze #ED4385;
+Zwart #0C0C0C;
+Lichtpaars #F2F0FF
+Lichtgrijs #F3F6F9
+Grijs #7A7A7A; */
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+body {
+    font-family: 'Roboto Light', sans-serif;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+/* ------------------------------- 2. Typography ----------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-style: bold;
+}
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+/* --------------- 3.1 Reusables ----------------------- */
+
+/* --------------- 3.2 Other --------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------------- */
+.header-container {
+    position: relative;
+    background: rgb(87, 34, 205);
+    background: linear-gradient(90deg, rgba(87, 34, 205, 1) 0%, rgba(72, 69, 228, 1) 100%);
+}
+
+.nav-menu {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #F2F0FF;
+    font-weight: lighter;
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.header-text {
+    font-size: large;
+    color: #F2F0FF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.button-prop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oval-button {
+    width: 200px;
+    height: 60px;
+    background-color: #ED4385;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+    color: #fff;
+    border: none;
+    border-radius: 30%;
+}
+
+.stripe {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* --------------- 4.2 Introduction ------------------- */
+.intro-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.intro-text {
+    color: #5722CD;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    font-size: larger;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.contact {
+    color: #0C0C0C;
+}
+/* ------------------------------- 5. Media Queries -------------------------------- */
