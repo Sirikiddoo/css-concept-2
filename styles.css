@@ -93,13 +93,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .oval-button {
+    text-transform: uppercase;
     width: 200px;
-    height: 60px;
+    height: 50px;
     background-color: #ED4385;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
     color: #fff;
     border: none;
-    border-radius: 30%;
+    border-radius: 25px;
 }
 
 .stripe {
